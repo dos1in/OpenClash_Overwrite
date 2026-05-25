@@ -1,14 +1,14 @@
 # 🌀 OpenClash_Overwrite 覆写模块
 
-> 💬 **欢迎 [Issue](https://github.com/Giveupmoon/OpenClash_Overwrite/issues) 提出您的建议和想法！**  
+> 💬 **欢迎 [Issue](https://github.com/dos1in/OpenClash_Overwrite/issues) 提出您的建议和想法！**
 > 🧩 适配版本：**OpenClash v0.47.006 及以上**  
 > 🧱 建议新装 **OpenClash** 用户使用，请勿修改任何 LuCI 设置  
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/Giveupmoon/OpenClash_Overwrite?style=for-the-badge&logo=git&label=Last%20Update" />
-  <img src="https://img.shields.io/github/repo-size/Giveupmoon/OpenClash_Overwrite?style=for-the-badge&logo=github&label=Repo%20Size" />
+  <img src="https://img.shields.io/github/last-commit/dos1in/OpenClash_Overwrite?style=for-the-badge&logo=git&label=Last%20Update" />
+  <img src="https://img.shields.io/github/repo-size/dos1in/OpenClash_Overwrite?style=for-the-badge&logo=github&label=Repo%20Size" />
   <a href="https://github.com/vernesong/OpenClash" target="_blank">
     <img src="https://img.shields.io/badge/OpenClash-v0.47.006%2B-blue?style=for-the-badge&logo=openwrt" />
   </a>
@@ -68,55 +68,55 @@
 #### 🔹 主路由用户 - Url-test
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite.conf
 ```
 
 #### 🔹 主路由用户 - Smart-LGBM
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-LGBM.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-LGBM.conf
 ```
 
 #### 🔹 主路由用户 - Smart（默认模型 + 数据收集）
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart.conf
 ```
 
 #### 🔹 主路由无需 IPv6 用户 - Url-test
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-noipv6.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-noipv6.conf
 ```
 
 #### 🔹 主路由无需 IPv6 用户 - Smart-LGBM
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-noipv6-LGBM.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-noipv6-LGBM.conf
 ```
 
 #### 🔹 主路由无需 IPv6 用户 - Smart（默认模型 + 数据收集）
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-noipv6.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-noipv6.conf
 ```
 
 #### 🔹 旁路由用户 - Url-test
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-bypass.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-bypass.conf
 ```
 
 #### 🔹 旁路由用户 - Smart-LGBM
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-bypass-LGBM.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-bypass-LGBM.conf
 ```
 
 #### 🔹 旁路由用户 - Smart（默认模型 + 数据收集）
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-bypass.conf
+https://raw.githubusercontent.com/dos1in/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-bypass.conf
 ```
 
 ---
