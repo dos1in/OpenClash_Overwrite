@@ -331,8 +331,19 @@ rules:
   - RULE-SET,Custom_Direct_IP,全球直连,no-resolve
   - RULE-SET,Custom_Proxy_Domain,手动选择
   - RULE-SET,Custom_Proxy_IP,手动选择,no-resolve
+  # Steam 下载/CDN 优先直连，避免落入 Steam 策略组后走代理节点
+  - DOMAIN,api.steampowered.com,全球直连
+  - DOMAIN,client-download.steampowered.com,全球直连
+  - DOMAIN,content.steampowered.com,全球直连
+  - DOMAIN,media.steampowered.com,全球直连
+  - DOMAIN-SUFFIX,cm.steampowered.com,全球直连
+  - DOMAIN-SUFFIX,steamcontent.com,全球直连
+  - DOMAIN-SUFFIX,steamserver.net,全球直连
+  - DOMAIN-SUFFIX,steamusercontent.com,全球直连
+  - DOMAIN-SUFFIX,steamchina.com,全球直连
   - RULE-SET,google-cn,全球直连
   - RULE-SET,category-games@cn,全球直连
+  - RULE-SET,steam@cn,全球直连
   - RULE-SET,Steam_CDN_Domain,全球直连
   - RULE-SET,Steam_CDN_IP,全球直连,no-resolve
   - RULE-SET,category-game-platforms-download,全球直连
@@ -415,6 +426,10 @@ rule-providers:
   category-games@cn:
     <<: *domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games@cn.mrs"
+
+  steam@cn:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam@cn.mrs"
 
   Steam_CDN_Domain:
     <<: *domain
